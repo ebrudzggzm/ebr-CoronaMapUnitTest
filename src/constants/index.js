@@ -1,5 +1,5 @@
 export const headers = {
-    'X-RapidAPI-Key': 'f19ecd530fmshf845add703d5d2cp10caf3jsnf62093c84e4e',
+    'X-RapidAPI-Key': process.env.REACT_APP_API_KEY,
     'X-RapidAPI-Host': 'covid-19-statistics.p.rapidapi.com'
 }
 
